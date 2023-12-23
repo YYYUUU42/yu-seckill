@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-infrastructure" />
+        <module name="seckill-stock" />
+        <module name="seckill-goods" />
+        <module name="seckill-reservation" />
+        <module name="seckill-activity" />
+        <module name="user-applocation" />
+        <module name="user-starter" />
+        <module name="seckill-order" />
+        <module name="seckill-nginx" />
+        <module name="user-domain" />
+        <module name="seckill-gateway" />
+        <module name="seckill-common" />
+        <module name="user-interfaces" />
+        <module name="seckill-ratelimiter" />
+        <module name="seckill-mq" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="seckill-activity" options="-parameters" />
+      <module name="seckill-common" options="-parameters" />
+      <module name="seckill-gateway" options="-parameters" />
+      <module name="seckill-goods" options="-parameters" />
+      <module name="seckill-mq" options="-parameters" />
+      <module name="seckill-nginx" options="-parameters" />
+      <module name="seckill-order" options="-parameters" />
+      <module name="seckill-ratelimiter" options="-parameters" />
+      <module name="seckill-reservation" options="-parameters" />
+      <module name="seckill-stock" options="-parameters" />
+      <module name="seckill-user" options="" />
+      <module name="user-applocation" options="-parameters" />
+      <module name="user-domain" options="-parameters" />
+      <module name="user-infrastructure" options="-parameters" />
+      <module name="user-interfaces" options="-parameters" />
+      <module name="user-starter" options="-parameters" />
+    </option>
+  </component>
+</project>
